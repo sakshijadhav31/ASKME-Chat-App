@@ -1,0 +1,46 @@
+# --- Python Virtual Environments ---
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+include/
+share/
+
+# --- Environment Variables (EXTREMELY IMPORTANT) ---
+.env
+.env.local
+.env.shared
+.env.test
+
+# --- Python Build & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# --- Database ---
+# Local SQLite किंवा Temporary DB फाईल्स असल्यास
+*.sqlite3
+*.db
+*.log
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs ---
+logs/
+*.log
