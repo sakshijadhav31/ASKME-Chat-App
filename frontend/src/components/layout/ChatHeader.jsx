@@ -11,7 +11,6 @@ import { cn } from "../../lib/utils";
 const AVAILABLE_MODELS = [
    { id: "gemini-3-flash-preview", label: "gemini-3-flash-preview" },
    { id: "models/gemma-3-1b-it", label: "gemma-3-1b-it" },
-  { id: "models/gemma-3-1b-it", label: "gemma-3-1b-it" },
  { id: "gemini-1.5-flash", label: "gemini-1.5-flash" },
    { id: "gemini-2.0-flash", label: "gemini-2.0-flash" },
 ];
